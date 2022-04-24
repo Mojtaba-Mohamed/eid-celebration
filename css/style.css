@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+.container .eid-illustration {
+    width: 100vw;
+    height: 85vh;
+    text-align: center;
+}
+
+.container .left-firework, .right-firework {
+    position: absolute;
+    top: 0px;
+    width: 45vw;
+}
+
+.container .left-firework {
+    left: 0px;
+}
+
+.container  .right-firework {
+    right: 0px;
+}
+
+.container p {
+    text-align: center;
+    margin: 0.5rem auto;
+    font-size: 1.5rem;
+    font-family: 'Monsieur La Doulaise', cursive;
+    color: #00808a;
+}
