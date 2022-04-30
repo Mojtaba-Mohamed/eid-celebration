@@ -18,7 +18,7 @@ function fireworks(){
             animType: 'svg',
             wrapper: container,
             path: 'https://assets8.lottiefiles.com/packages/lf20_obhph3sh.json',
-            loop: false,
+            loop: true,
             autoplay: true
         };
         
